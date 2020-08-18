@@ -45,6 +45,7 @@ Add snippet blocks to your WordPress content using the new Gutenberg editor
 - Shell
 - Twig
 - TypeScript
+- NGINX Conf
 
 ==== Credits ====
 
@@ -76,6 +77,10 @@ It uses [highlight.js](https://highlightjs.org/)
 `androidstudio`
 
 == Changelog ==
+
+= 1.3.1 =
+
+* NGINX conf added & enable Foundation Style
 
 = 1.3.0 =
 
