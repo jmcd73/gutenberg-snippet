@@ -100,20 +100,20 @@ class Main {
 		wp_enqueue_style(
 			'snippet-block-block',
 			plugins_url( $styles, __FILE__ ),
-			[],
+			array(),
 			filemtime( plugin_dir_path( __FILE__ ) . $styles )
 		);
 
 		wp_enqueue_script(
 			'snippet-block-block',
 			$blocks_script,
-			[
+			array(
 				'wp-blocks',
 				'wp-data',
 				'wp-edit-post',
 				'wp-element',
 				'wp-i18n',
-			],
+			),
 			filemtime( plugin_dir_path( __FILE__ ) . $scripts ),
 			true
 		);
@@ -134,7 +134,7 @@ class Main {
 		wp_enqueue_script(
 			'snippet-block-block',
 			plugins_url( $scripts, __FILE__ ),
-			[],
+			array(),
 			$plugin_version,
 			true
 		);
@@ -142,7 +142,7 @@ class Main {
 		wp_enqueue_style(
 			'snippet-block-block',
 			plugins_url( $styles, __FILE__ ),
-			[],
+			array(),
 			$plugin_version
 		);
 	}
@@ -156,14 +156,14 @@ class Main {
 		wp_enqueue_script(
 			'sw-hightlight',
 			plugins_url( $hightlight_js, __FILE__ ),
-			[],
+			array(),
 			'9.15.6',
 			true
 		);
 		wp_enqueue_style(
 			'sw-hightlight',
 			plugins_url( $hightlight_css, __FILE__ ),
-			[],
+			array(),
 			'9.15.6'
 		);
 	}
