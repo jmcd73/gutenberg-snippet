@@ -152,7 +152,7 @@ class Main {
 	 */
 	public function enqueue_highlight() {
 		$hightlight_js  = 'node_modules/highlightjs/highlight.pack.min.js';
-		$hightlight_css = 'node_modules/highlightjs/styles/androidstudio.css';
+		$hightlight_css = 'node_modules/highlightjs/styles/foundation.css';
 		wp_enqueue_script(
 			'sw-hightlight',
 			plugins_url( $hightlight_js, __FILE__ ),

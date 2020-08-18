@@ -44,6 +44,7 @@ const languages = [
 	{ label: 'Shell', value: 'shell' },
 	{ label: 'Twig', value: 'twig' },
 	{ label: 'TypeScript', value: 'typescript' },
+	{ label: 'NGINX', value: 'nginxconf' },
 ];
 
 /**
