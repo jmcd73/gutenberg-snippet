@@ -56,7 +56,7 @@ Save the post and check your front-end
 - Shell
 - Twig
 - TypeScript
-
+- NGinx Conf
 
 
 ## Credits
