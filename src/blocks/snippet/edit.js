@@ -36,6 +36,7 @@ const languages = [
 	{ label: 'Objective C', value: 'objectivec' },
 	{ label: 'PHP', value: 'php' },
 	{ label: 'Python', value: 'python' },
+	{ label: 'Plain Text', value: 'plaintext' },
 	{ label: 'R', value: 'r' },
 	{ label: 'Ruby', value: 'ruby' },
 	{ label: 'Rust', value: 'rust' },
