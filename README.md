@@ -84,6 +84,6 @@ if ( @file_get_contents( $webpack_server_http_scripts_a_file ) !== false ) {
 // phpcs:enable
 ```
 
-## Changelod
+## Changelog
 
 Read the changelog [here](CHANGELOG.md)
